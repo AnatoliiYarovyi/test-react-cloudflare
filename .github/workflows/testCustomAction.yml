@@ -4,7 +4,7 @@ on:
   push: # start when push in main branch
     branches:
       - main
-  # workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm install && npm run build
       - name: Publish
-        uses: AnatoliiYarovyi/test-custom-action@v0.0.5
+        uses: AnatoliiYarovyi/test-custom-action@v0.0.6
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
