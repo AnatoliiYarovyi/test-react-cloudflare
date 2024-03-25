@@ -4,7 +4,7 @@ on:
   push: # start when push in main branch
     branches:
       - main
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   deploy:
