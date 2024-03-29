@@ -26,3 +26,4 @@ jobs:
           projectName: test-react-cloudflare # e.g. 'my-project'
           directory: build # e.g. 'dist'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: main # e.g. 'dev' 
