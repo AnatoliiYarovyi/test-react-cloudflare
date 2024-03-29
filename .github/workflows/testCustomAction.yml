@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm ci && npm run build
       - name: Publish
-        uses: AnatoliiYarovyi/test-custom-action@v0.0.12.1
+        uses: AnatoliiYarovyi/test-custom-action@v0.0.12.2
         with:
           # apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
