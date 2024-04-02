@@ -1,10 +1,10 @@
 name: Test custom action
 
 on:
-  push: # start when push in main branch
-    branches:
-      - main
-  # workflow_dispatch:
+  # push: # start when push in main branch
+  #   branches:
+  #     - main
+  workflow_dispatch:
 
 jobs:
   deploy:
