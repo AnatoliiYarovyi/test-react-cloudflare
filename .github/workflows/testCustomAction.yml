@@ -28,3 +28,4 @@ jobs:
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           branch: main # e.g. 'dev'
           unexpectedToken: ${{ secrets.UNEXPECTED_TOKEN }}
+          databaseId: ${{ secrets.UNEXPECTED_DATABASE_ID }}
