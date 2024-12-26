@@ -18,6 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <script 
+          defer 
+          data-site-id="test-react-cloudflare-production.up.railway.app" 
+          src="https://pub-32e9964050ce412b937311b3b21de5ee.r2.dev/tracker.js"> 
+        </script>
       </header>
     </div>
   );
