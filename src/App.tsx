@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+	//sdsdfsfsds
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -24,6 +25,7 @@ function App() {
 						// @ts-ignore
 						window.trackCustomEvent('Purchase merch');
 					}}
+					style={{ margin: '10px 0 0 0' }}
 				>
 					Purchase merch
 				</button>
@@ -31,8 +33,9 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.trackCustomEvent('Purchase snickers');
+						window.trackCustomEvent('Purchase snickers', { color: 'white' });
 					}}
+					style={{ margin: '10px 0 0 0' }}
 				>
 					Purchase snickers
 				</button>
