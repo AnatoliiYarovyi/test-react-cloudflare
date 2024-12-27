@@ -18,6 +18,20 @@ function App() {
 				>
 					Learn React
 				</a>
+				<button
+					onClick={() => {
+						window.trackCustomEvent('Purchase merch');
+					}}
+				>
+					Purchase merch
+				</button>
+				<button
+					onClick={() => {
+						window.trackCustomEvent('Purchase snickers');
+					}}
+				>
+					Purchase snickers
+				</button>
 			</header>
 		</div>
 	);
