@@ -19,14 +19,18 @@ function App() {
 					Learn React
 				</a>
 				<button
+					type="button"
 					onClick={() => {
+						// @ts-ignore
 						window.trackCustomEvent('Purchase merch');
 					}}
 				>
 					Purchase merch
 				</button>
 				<button
+					type="button"
 					onClick={() => {
+						// @ts-ignore
 						window.trackCustomEvent('Purchase snickers');
 					}}
 				>
