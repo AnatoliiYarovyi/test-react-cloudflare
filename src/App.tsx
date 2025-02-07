@@ -37,7 +37,17 @@ function App() {
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
-					Purchase snickers
+					Purchase snickers -> white
+				</button>
+				<button
+					type="button"
+					onClick={() => {
+						// @ts-ignore
+						window.trackCustomEvent('Purchase snickers', { color: 'black' });
+					}}
+					style={{ margin: '10px 0 0 0' }}
+				>
+					Purchase snickers -> black
 				</button>
 			</header>
 		</div>
