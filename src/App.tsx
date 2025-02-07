@@ -37,7 +37,7 @@ function App() {
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
-					{/* Purchase snickers -> white */}
+					Purchase snickers - "white"
 				</button>
 				<button
 					type="button"
@@ -47,7 +47,7 @@ function App() {
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
-					{/* Purchase snickers -> black */}
+					Purchase snickers "black"
 				</button>
 			</header>
 		</div>
