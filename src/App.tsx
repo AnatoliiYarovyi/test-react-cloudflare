@@ -23,7 +23,7 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.trackCustomEvent('Purchase merch');
+						window.stonks.event('Purchase merch');
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
@@ -33,7 +33,7 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.trackCustomEvent('Purchase snickers', { color: 'white' });
+						window.stonks.event('Purchase snickers', '/', { color: 'white' });
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
@@ -43,7 +43,7 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.trackCustomEvent('Purchase snickers', { color: 'black' });
+						window.stonks.event('Purchase snickers', '/', { color: 'black' });
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
