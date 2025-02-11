@@ -49,6 +49,16 @@ function App() {
 				>
 					Purchase snickers "black"
 				</button>
+				<button
+					type="button"
+					onClick={() => {
+						// @ts-ignore
+						window.stonks.event('Purchase snickers', '/', { size: 'm' });
+					}}
+					style={{ margin: '10px 0 0 0' }}
+				>
+					Purchase snickers size "m"
+				</button>
 			</header>
 		</div>
 	);
