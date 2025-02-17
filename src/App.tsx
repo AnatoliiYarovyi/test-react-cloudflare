@@ -53,11 +53,11 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.stonks.event('Purchase snickers', '/', { size: 'm' });
+						window.stonks.event('Purchase snickers', '/', { size: 'm', theme: 'pink', theme: 'green' });
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
-					Purchase snickers size "m"
+					Purchase snickers size "m" and theme "pink" & theme "green"
 				</button>
 			</header>
 		</div>
