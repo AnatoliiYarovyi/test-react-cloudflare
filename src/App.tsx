@@ -59,6 +59,16 @@ function App() {
 				>
 					Purchase snickers size "m" and theme "pink" & color "green"
 				</button>
+				<button
+					type="button"
+					onClick={() => {
+						// @ts-ignore
+						window.stonks.event('Purchase snickers', '/', { size: 'l', theme: 'blue'l});
+					}}
+					style={{ margin: '10px 0 0 0' }}
+				>
+					Purchase snickers size "l" and theme "blue"
+				</button>
 			</header>
 		</div>
 	);
