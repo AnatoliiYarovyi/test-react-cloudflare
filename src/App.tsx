@@ -69,6 +69,26 @@ function App() {
 				>
 					Purchase snickers size "l" and theme "blue"
 				</button>
+				<button
+					type="button"
+					onClick={() => {
+						// @ts-ignore
+						window.stonks.event('Purchase snickers', '/', { string: 'hello', boolean: true, number: 111});
+					}}
+					style={{ margin: '10px 0 0 0' }}
+				>
+					Purchase snickers - string "hello", boolean true and number 111
+				</button>
+				<button
+					type="button"
+					onClick={() => {
+						// @ts-ignore
+						window.stonks.event('Purchase snickers', '/', { string: 'hi', boolean: false, number: 222});
+					}}
+					style={{ margin: '10px 0 0 0' }}
+				>
+					Purchase snickers - string "hi", boolean false and number 222
+				</button>
 			</header>
 		</div>
 	);
