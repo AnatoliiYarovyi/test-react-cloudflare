@@ -63,7 +63,7 @@ function App() {
 					type="button"
 					onClick={() => {
 						// @ts-ignore
-						window.stonks.event('Purchase snickers', '/', { size: 'l', theme: 'blue'l});
+						window.stonks.event('Purchase snickers', '/', { size: 'l', theme: 'blue'});
 					}}
 					style={{ margin: '10px 0 0 0' }}
 				>
